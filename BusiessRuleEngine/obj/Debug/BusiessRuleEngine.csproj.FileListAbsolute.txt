@@ -1,0 +1,2 @@
+C:\Users\NI2941\source\repos\BusiessRuleEngine\BusiessRuleEngine\obj\Debug\BusiessRuleEngine.csprojAssemblyReference.cache
+C:\Users\NI2941\source\repos\BusiessRuleEngine\BusiessRuleEngine\obj\Debug\BusiessRuleEngine.csproj.CoreCompileInputs.cache

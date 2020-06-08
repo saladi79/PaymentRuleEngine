@@ -1,0 +1,6 @@
+C:\Users\NI2941\source\repos\BusiessRuleEngine\PaymentRuleEngine\obj\Debug\PaymentRuleEngine.csprojAssemblyReference.cache
+C:\Users\NI2941\source\repos\BusiessRuleEngine\PaymentRuleEngine\obj\Debug\PaymentRuleEngine.csproj.CoreCompileInputs.cache
+C:\Users\NI2941\source\repos\BusiessRuleEngine\PaymentRuleEngine\bin\Debug\PaymentRuleEngine.dll
+C:\Users\NI2941\source\repos\BusiessRuleEngine\PaymentRuleEngine\bin\Debug\PaymentRuleEngine.pdb
+C:\Users\NI2941\source\repos\BusiessRuleEngine\PaymentRuleEngine\obj\Debug\PaymentRuleEngine.dll
+C:\Users\NI2941\source\repos\BusiessRuleEngine\PaymentRuleEngine\obj\Debug\PaymentRuleEngine.pdb

@@ -1,0 +1,10 @@
+C:\Users\NI2941\source\repos\BusiessRuleEngine\ConsoleApp1\obj\Debug\ClientApplication.csprojAssemblyReference.cache
+C:\Users\NI2941\source\repos\BusiessRuleEngine\ConsoleApp1\obj\Debug\ClientApplication.csproj.CoreCompileInputs.cache
+C:\Users\NI2941\source\repos\BusiessRuleEngine\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\NI2941\source\repos\BusiessRuleEngine\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\NI2941\source\repos\BusiessRuleEngine\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\NI2941\source\repos\BusiessRuleEngine\ConsoleApp1\bin\Debug\PaymentRuleEngine.dll
+C:\Users\NI2941\source\repos\BusiessRuleEngine\ConsoleApp1\bin\Debug\PaymentRuleEngine.pdb
+C:\Users\NI2941\source\repos\BusiessRuleEngine\ConsoleApp1\obj\Debug\ClientApplication.csproj.CopyComplete
+C:\Users\NI2941\source\repos\BusiessRuleEngine\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\NI2941\source\repos\BusiessRuleEngine\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
