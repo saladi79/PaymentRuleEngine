@@ -8,10 +8,10 @@ namespace PaymentRuleEngine
 {
     public class Customer
     {
-        int CustomerId { get; set; }
-        string CustomerName { get; set; }
-        string PhoneNumber { get; set; }
-        string ShippingAddress { get; set; }
+        public int CustomerId { get; set; }
+        public string CustomerName { get; set; }
+        public string PhoneNumber { get; set; }
+        public string ShippingAddress { get; set; }
     }
 
 

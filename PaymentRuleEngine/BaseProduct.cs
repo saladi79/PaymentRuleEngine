@@ -30,18 +30,22 @@ namespace PaymentRuleEngine
 
     public class PhysicalProduct : BaseProduct
     {
-        ShipmentManager _shipmentManager = new ShipmentManager();        
+        ShipmentManager _shipmentManager;
+        CommissionPaymentManager _commissionPaymentManager;
 
         public PhysicalProduct(Product product, Customer customer) : base(product, customer)
         {
+            _shipmentManager = new ShipmentManager();
+            _commissionPaymentManager = new CommissionPaymentManager();
         }
         
         public override bool PurchaseProduct()
         {
-            _shipmentManager.GeneratePackingSlip(false); //generaton of packing slip for generation   
+            _shipmentManager.GeneratePackingSlip(false); //generaton of packing slip for generation
+            _commissionPaymentManager.GenerateCommissionForAgent();// Generate comission for agenet
 
 
-            if(_product.ProductSubType==ProductSubType.Book)
+            if (_product.ProductSubType==ProductSubType.Book)
             {
                 _shipmentManager.GeneratePackingSlip(true); //generaton of duplicate packing slip for royality department   
             }            
@@ -100,24 +104,25 @@ namespace PaymentRuleEngine
 
     public class ShipmentManager
     {
-        private Product _product;
-        private Customer _customer;
+        //private Product _product;
+       // private Customer _customer;
 
         public ShipmentManager()
         {
             //_product = product;
             //_customer = customer;
         }
-        public void GeneratePackingSlip(bool isDuplicateSlip)
+        public bool GeneratePackingSlip(bool isDuplicateSlip)
         {
             //Generte packing slip related code
+            return true;
         }
     }
 
     public class MembershipManager
     {
-        private Product _product;
-        private Customer _customer;
+       // private Product _product;
+       // private Customer _customer;
         private MailManager _mail = new MailManager();
 
         public MembershipManager()
@@ -125,11 +130,12 @@ namespace PaymentRuleEngine
             //_product = product;
             //_customer = customer;
         }
-        public void ActivateMember(bool isNewMembership)
+        public bool ActivateMember(bool isNewMembership)
         {
             //Generte packing slip related code
 
             _mail.SendEmail();// mail to send after successful membership activation
+            return true;
         }
 
 
@@ -146,6 +152,22 @@ namespace PaymentRuleEngine
         public void SendEmail()
         {
             //mail related code
+        }
+
+
+    }
+
+    public class CommissionPaymentManager
+    {
+
+        public CommissionPaymentManager()
+        {
+            //_product = product;
+            //_customer = customer;
+        }
+        public void GenerateCommissionForAgent()
+        {
+            //commission related code
         }
 
 
